@@ -285,7 +285,7 @@ void exit_program(SDL_Surface *window)
 void handle_keyboard(SDL_Surface *window, SDL_Event *event, LoopThreadData *thread_data)
 {
 	static bool space_pressed = false;
-	bool shift = SDL_GetModState() | 0xff == KMOD_SHIFT;
+	bool shift = SDL_GetModState() & KMOD_SHIFT;
 	int bpm;
 
 	if(event->type == SDL_KEYDOWN) {

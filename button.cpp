@@ -200,7 +200,6 @@ void create_toggle_button(SDL_Surface *dest, Button *button, int x, int y,
 	button->rect.h = button->img->h;
 		
 	SDL_BlitSurface(button->img, NULL, dest, &button->rect);
-	//SDL_UpdateRect(dest, x, y, button->rect.w, button->rect.h);
 
 	button_list[nbuttons++] = button;
 }

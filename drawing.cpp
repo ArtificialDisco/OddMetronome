@@ -40,8 +40,6 @@ void draw_white_border(SDL_Surface *window, SDL_Rect all)
 	SDL_FillRect(window, &left, white);
 	SDL_FillRect(window, &bottom, white);
 	SDL_FillRect(window, &right, white);
-	
-	//SDL_UpdateRect(window, all.x, all.y, all.w + 1, all.h + 1);
 }
 
 void draw_sequence_border(SDL_Surface *window)
@@ -132,7 +130,6 @@ void display_bpm(SDL_Surface *window, int bpm)
 		SDL_BlitSurface(numbers[digits[i]], NULL, window, &digit_rect);
 		digit_rect.x += length;
 	}
-	//SDL_UpdateRect(window, update_rect.x, update_rect.y, update_rect.w, update_rect.h);
 }
 
 void render_text(SDL_Surface *window_surface, SDL_Rect *area)
