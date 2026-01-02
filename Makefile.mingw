@@ -1,0 +1,41 @@
+RMF = rm -f
+
+CC = gcc
+CO = gcc -c
+
+LIBS = -DMINGW -mwindows -static-libgcc -static-libstdc++ -DMINGW -mwindows -lm -lSDL -lSDL_image -lSDL_mixer -lmingw32 -lSDL_ttf
+CFLAGS = -DMINGW -mwindows
+
+SOURCES = Metronome.cpp \
+		  drawing.cpp \
+		  button.cpp \
+		  init.cpp
+
+HEADERS = metronome.h \
+		  drawing.h \
+		  button.h \
+		  init.h
+
+OBJECTS = Metronome.o \
+		  drawing.o \
+		  button.o \
+		  init.o
+
+TARGET = metronome
+
+.SUFFIXES: .cpp
+.cpp.o:
+	$(CO) $< -o $@ $(CFLAGS)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -o $(TARGET) $(LIBS)
+
+clean:
+	$(RMF) $(OBJECTS) $(TARGET)
+
+metronome.o: Metronome.cpp metronome.h init.h drawing.h button.h
+init.o: init.cpp init.h metronome.h button.h
+drawing.o: drawing.cpp drawing.h metronome.h init.h button.h
+button.o: button.cpp button.h metronome.h

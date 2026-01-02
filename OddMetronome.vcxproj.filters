@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{081881b4-f2a3-4ebb-8c79-4bee7c899e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img">
+      <UniqueIdentifier>{6c91f90c-c6a3-41e7-8bfe-0ea11ca9fa18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sounds">
+      <UniqueIdentifier>{012f8c91-4f5d-4a46-8700-4e309531bae7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metronome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metronome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="SDL2_ttf.dll">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="SDL2.dll">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="SDL2_image.dll">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="SDL2_mixer.dll">
+      <Filter>Resource Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="fonts\Bank Gothic Light BT.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\0.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\1.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\2.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\3.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\4.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\5.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\6.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\7.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\8.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\9.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\back_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\back_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\back_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\clear_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\clear_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\clear_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\closing.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\down_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\down_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\down_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\info_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\info_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\info_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\l.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\l_highlight.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_down_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_down_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_down_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_up_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_up_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\long_up_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\ok_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\ok_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\ok_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\pling_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\pling_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\pling_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\pling_off_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\s.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\s_highlight.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\short_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\short_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\short_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\start_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\stop_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\up_button.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\up_button_hover.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="img\up_button_pressed.png">
+      <Filter>Resource Files\img</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sounds\klack.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="sounds\pling.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
