@@ -225,6 +225,9 @@ void toggle_loop(SDL_Surface *window, LoopThreadData *thread_data)
 		loop_running = true;
 		sound_loop_thread
 			= SDL_CreateThread(sound_loop_func, "Carl", thread_data);
+		thread_data->current_beat = 0;
+		draw_sequence(window, thread_data->sequence,
+			thread_data->seq_len, 0);
 	}
 }
 
